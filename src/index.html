@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."
+    />
+    <meta name="author" content="geomydas" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      /* inter-regular - latin */
+      @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        src: url("../fonts/inter-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      }
+
+      /* inter-700 - latin */
+      @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        src: url("../fonts/inter-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      } /* lexend-deca-regular - latin */
+      @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: "Lexend Deca";
+        font-style: normal;
+        font-weight: 400;
+        src: url("../fonts/lexend-deca-v21-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      }
+    </style>
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body
+    class="bg-darkblue flex min-h-screen   items-center justify-center p-8"
+  >
+    <main class=" flex flex-col md:flex-row-reverse max-w-4xl">
+      <picture
+        ><img
+          src="../images/image-header-mobile.jpg"
+          alt="Women in an office"
+          class="w-full rounded-t-xl object-cover md:h-full md:rounded-tl-none md:rounded-br-xl" style="filter: sepia(15%) saturate(3767%) hue-rotate(245deg) brightness(65%) contrast(85%)" />
+        <source
+          media="(min-width: 48rem)"
+          srcset="../images/image-header-desktop"
+      /></picture>
+      <div
+        class="bg-desaturatedblue rounded-b-xl py-8 px-4 text-center md:rounded-tl-xl md:rounded-br-none md:p-12 md:text-left"
+      >
+        <h1 class="font-inter mb-4 text-3xl font-bold text-white">
+          Get <span class="text-violet">insights </span>that help your business
+          grow.
+        </h1>
+        <p class="font-inter mb-8 text-white/[0.75] md:mb-12">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <ul class="flex flex-col gap-4 md:flex-row md:justify-between">
+          <li class="font-inter text-2xl font-bold uppercase text-white">
+            10k+
+            <span
+              class="font-lexend block text-base font-normal tracking-widest text-white/[0.6]"
+              >companies</span
+            >
+          </li>
+          <li class="font-inter text-2xl font-bold uppercase text-white">
+            314
+            <span
+              class="font-lexend block text-base font-normal tracking-widest text-white/[0.6]"
+              >templates</span
+            >
+          </li>
+          <li class="font-inter text-2xl font-bold uppercase text-white">
+            12m+
+            <span
+              class="font-lexend block text-base font-normal tracking-widest text-white/[0.6]"
+              >queries</span
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
